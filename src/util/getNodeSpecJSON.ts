@@ -40,7 +40,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'Publish event',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -53,7 +53,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
@@ -64,9 +64,8 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'Listen event',
     inputs: [
       {
-        name: ' ',
-        valueType: 'flow',
-        defaultValue: ''
+        name: 'flow',
+        valueType: 'flow'
       },
       {
         name: 'name',
@@ -77,7 +76,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
@@ -88,7 +87,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'play sound',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -101,7 +100,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
@@ -155,7 +154,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: 'result',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
@@ -256,7 +255,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'Increment value',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -275,7 +274,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -291,7 +290,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'Decrement value',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -310,7 +309,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -326,7 +325,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'get value at path',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -345,7 +344,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -361,7 +360,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'set value at path',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -386,7 +385,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -402,7 +401,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'get value at path',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -421,7 +420,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -437,7 +436,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'set value at path',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -462,7 +461,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -478,7 +477,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'set value',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -497,7 +496,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -513,7 +512,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'get value in table',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -537,7 +536,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -553,7 +552,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'get value in table',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -565,7 +564,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -581,7 +580,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'set value in table',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -611,7 +610,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -627,7 +626,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'get table row count',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -639,7 +638,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -655,7 +654,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'get table col count',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -673,7 +672,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -689,7 +688,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'code snippet',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow'
       },
       {
@@ -707,7 +706,11 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
+        valueType: 'flow'
+      },
+      {
+        name: 'output_flow',
         valueType: 'flow'
       },
       {
