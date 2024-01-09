@@ -223,7 +223,7 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'toggle value',
     inputs: [
       {
-        name: ' ',
+        name: 'flow',
         valueType: 'flow',
         defaultValue: ''
       },
@@ -236,7 +236,11 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: ' ',
+        name: 'flow',
+        valueType: 'flow'
+      },
+      {
+        name: 'output_flow',
         valueType: 'flow'
       },
       {
@@ -722,6 +726,43 @@ export const newNode: NodeSpecJSONNew[] = [
         name: 'name',
         valueType: 'variable',
         type: 'string',
+        defaultValue: ''
+      },
+      {
+        name: 'value',
+        valueType: 'variable',
+        type: 'string',
+        defaultValue: ''
+      },
+      {
+        name: 'defaultValue',
+        valueType: 'variable',
+        type: 'string',
+        defaultValue: ''
+      }
+    ],
+    outputs: [
+      {
+        name: 'result',
+        valueType: 'variable',
+        type: 'string'
+      }
+    ]
+  },
+  {
+    type: 'variable_set',
+    category: 'Variable',
+    label: 'Variable set',
+    inputs: [
+      {
+        name: 'name',
+        valueType: 'variable',
+        type: 'string',
+        defaultValue: ''
+      },
+      {
+        name: 'output_flow',
+        valueType: 'flow',
         defaultValue: ''
       },
       {
