@@ -106,7 +106,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ]
   },
   {
-    type: 'on_click',
+    type: 'lifecycle/on_click',
     category: 'Event',
     label: 'on Click',
     inputs: [
@@ -125,7 +125,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ]
   },
   {
-    type: 'on_drag',
+    type: 'lifecycle/on_drag',
     category: 'Event',
     label: 'on Drag',
     inputs: [
@@ -144,7 +144,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ]
   },
   {
-    type: 'on_drag_start',
+    type: 'lifecycle/on_drag_start',
     category: 'Event',
     label: 'on Drag Start',
     inputs: [
@@ -163,7 +163,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ]
   },
   {
-    type: 'on_drop',
+    type: 'lifecycle/on_drop',
     category: 'Event',
     label: 'on Drop',
     inputs: [
