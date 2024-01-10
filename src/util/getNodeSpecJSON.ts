@@ -106,41 +106,6 @@ export const newNode: NodeSpecJSONNew[] = [
     ]
   },
   {
-    type: 'event',
-    category: 'Event',
-    label: 'Event',
-    inputs: [
-      {
-        name: 'name',
-        valueType: 'variable',
-        type: 'string',
-        defaultValue: ''
-      },
-      {
-        name: 'type',
-        valueType: 'variable',
-        type: 'string',
-        defaultValue: ''
-      },
-      {
-        name: 'function node',
-        valueType: 'function',
-        defaultValue: ''
-      },
-      {
-        name: 'last event',
-        valueType: 'flow',
-        defaultValue: ''
-      }
-    ],
-    outputs: [
-      {
-        name: 'result',
-        valueType: 'event'
-      }
-    ]
-  },
-  {
     type: 'on_click',
     category: 'Event',
     label: 'on Click',
@@ -173,7 +138,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: 'result',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
@@ -192,7 +157,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: 'result',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
@@ -211,7 +176,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: 'result',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
@@ -236,10 +201,6 @@ export const newNode: NodeSpecJSONNew[] = [
     outputs: [
       {
         name: 'flow',
-        valueType: 'flow'
-      },
-      {
-        name: 'output_flow',
         valueType: 'flow'
       },
       {
@@ -710,10 +671,6 @@ export const newNode: NodeSpecJSONNew[] = [
         valueType: 'flow'
       },
       {
-        name: 'output_flow',
-        valueType: 'flow'
-      },
-      {
         name: 'output',
         valueType: 'variable',
         type: 'object'
@@ -758,14 +715,14 @@ export const newNode: NodeSpecJSONNew[] = [
     label: 'Variable set',
     inputs: [
       {
-        name: 'name',
-        valueType: 'variable',
-        type: 'string',
+        name: 'flow',
+        valueType: 'flow',
         defaultValue: ''
       },
       {
-        name: 'output_flow',
-        valueType: 'flow',
+        name: 'name',
+        valueType: 'variable',
+        type: 'string',
         defaultValue: ''
       },
       {
@@ -783,9 +740,8 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: 'result',
-        valueType: 'variable',
-        type: 'string'
+        name: 'flow',
+        valueType: 'flow'
       }
     ]
   },
@@ -867,7 +823,7 @@ export const newNode: NodeSpecJSONNew[] = [
     ],
     outputs: [
       {
-        name: 'result',
+        name: 'flow',
         valueType: 'flow'
       }
     ]
